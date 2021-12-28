@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+*{
+    margin:0;
+}
+.navbar{
+    background-color: #333333;
+}
+
+.navbar-container{
+    max-width: 1150px;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    height: 50px;
+  
+}
+   
+.options{
+    display: flex;
+   
+}
+.options ul{
+    display:flex;
+    padding-top: 15px;
+   
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+.options a{
+    padding-left: 40px;
+    text-decoration: none;
+    color: white;
+    font-weight: 50;
+}
+.navbar-brand{
+   background-color: #ea2f10;
+   color: #ffffff;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: larger;
+}
+button{
+ padding: 5px 15px;
+ border: none;
+}
+.navline{
+    padding-right:20px;
+    border-right: 1.2px solid white;
+   
+}
+#sign-up{
+    background-color: #ea2f10;
+    color: #ffffff;  
+   
+}
+/* body */
+.body-container{
+    max-width: 1150px;
+    margin: auto;
+}
+.showcase{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.topics{
+    color: #EA2F10;
+}
+.news p{
+    line-height: 1.5;
+    font-size: large;
+    padding-top: 10px;
+}
+.news{
+    padding: 10px;
+}
+.body-container h2{
+    font-size: x-large;
+    font-weight: 900;
+    padding: 10px 5px;
+}
+.body-container h4{
+    padding: 12px;
+    color: #008CBA;
+   max-width:  600px;
+    justify-content: center;
+    margin: auto;
+}
+.para{
+    font-size:large;
+}
+.new{
+    margin-top: 25px;
+}
+.new a{
+    text-decoration: none;
+    color:#008CBA ;
+}
+
+.topics a{
+    text-decoration: none;
+    color:#008CBA ;
+    font-size: small;
+    font-weight: lighter;
+}
+/* footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    background-color: #F5F5F5;
+   padding: 15px 5px;
+}
+.footer-right{
+    padding-right: 10px;
+}
+.footer-left ul{
+    display: flex;
+}
+footer a{
+    text-decoration: none;
+    color: #999999;
+    padding: 10px;
+}
+footer p{
+    color: #999999;
+}
+span{
+    font-weight: bolder;
+    font-size: large;
+}
+.vline{
+    border-left:1.5px solid #999999;
+}
+#opt1 :hover{
+   text-decoration: underline;
+}
+.topics a:hover{
+    text-decoration: underline;
+}
+.footer-left a:hover{
+    text-decoration: underline;
+}
+
+ /* responsive */
+ @media (max-width:650px) {
+    #opt1{
+        display: none;
+    }
+    .showcase{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .footer-right{
+        display: none;
+    }
+    .footer-left{
+       justify-content: center;
+       margin: auto;
+    }
+
+ }
